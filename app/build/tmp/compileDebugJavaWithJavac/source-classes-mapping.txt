@@ -1,0 +1,26 @@
+org/posenet/compare/DefaultConstructorMarker.java
+ org.posenet.compare.DefaultConstructorMarker
+org/posenet/compare/MainActivity.java
+ org.posenet.compare.MainActivity
+ org.posenet.compare.MainActivity$1
+posenet/compare/MyGalleryActivity.java
+ posenet.compare.MyGalleryActivity
+ posenet.compare.MyGalleryActivity$1
+ posenet.compare.MyGalleryActivity$2
+ posenet.compare.MyGalleryActivity$3
+ posenet.compare.MyGalleryActivity$4
+posenet/compare/MainActivity.java
+ posenet.compare.MainActivity
+ posenet.compare.MainActivity$1
+org/posenet/compare/MyGalleryActivity.java
+ org.posenet.compare.MyGalleryActivity
+ org.posenet.compare.MyGalleryActivity$1
+ org.posenet.compare.MyGalleryActivity$2
+ org.posenet.compare.MyGalleryActivity$3
+ org.posenet.compare.MyGalleryActivity$4
+org/posenet/compare/CommonUtils.java
+ org.posenet.compare.CommonUtils
+org/posenet/compare/BuildConfig.java
+ org.posenet.compare.BuildConfig
+posenet/compare/CommonUtils.java
+ posenet.compare.CommonUtils

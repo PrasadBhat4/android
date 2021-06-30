@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.lite.examples.posenet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:5:5-17
+8        android:minSdkVersion="23"
+8-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:5:5-17
+9        android:targetSdkVersion="30" />
+9-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:5:5-17
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:6:5-60
+11-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:6:19-57
+12    <uses-feature android:name="android.hardware.camera.autofocus" />
+12-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:7:5-70
+12-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:7:19-67
+13
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:10:5-65
+16-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:10:22-62
+17
+18    <application
+18-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:12:5-28:19
+19        android:allowBackup="true"
+19-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:13:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\3772a7cc44599001da1f047b7ea5fb14\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/icon"
+23-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:14:9-36
+24        android:label="POSE COMPARATOR"
+24-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:15:9-40
+25        android:roundIcon="@mipmap/icon"
+25-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:16:9-41
+26        android:supportsRtl="true"
+26-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:17:9-35
+27        android:theme="@style/AppTheme.Posenet" >
+27-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:18:9-48
+28        <activity android:name="org.posenet.compare.MyGalleryActivity" />
+28-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:19:9-54
+28-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:19:19-52
+29        <activity android:name="org.posenet.compare.MainActivity" >
+29-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:20:9-26:20
+29-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:20:19-47
+30            <intent-filter>
+30-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:21:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:22:17-69
+31-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:24:17-77
+33-->C:\Users\lenovo\Android Studio Projects\android\app\src\main\AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

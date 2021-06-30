@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Pose_Comparator.iml" filepath="$PROJECT_DIR$/.idea/modules/Pose_Comparator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Pose_Comparator.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Pose_Comparator.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/posenet/Pose_Comparator.posenet.iml" filepath="$PROJECT_DIR$/.idea/modules/posenet/Pose_Comparator.posenet.iml" />
+    </modules>
+  </component>
+</project>
